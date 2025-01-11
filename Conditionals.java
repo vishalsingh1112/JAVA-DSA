@@ -6,6 +6,7 @@ public class Conditionals {
         // IF AND ELSE  EVEN AND ODD 
         
         
+        
 //         Scanner sc = new Scanner(System.in);
 //        // System.out.println("enter your number ");
 //         int num = sc.nextInt();
