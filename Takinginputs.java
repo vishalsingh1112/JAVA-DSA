@@ -4,14 +4,15 @@ public class Takinginputs {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("enter your name "); 
-        String name = sc.nextLine();
-        System.out.println("your name is "+name );
+        // System.out.println("enter your name "); 
+        // String name = sc.nextLine();
+        
 
 
-        System.out.println("enter your roll no");
-        int rollno= sc.nextInt();
-        System.out.println("your roll no is "+rollno);
+        // System.out.println("enter your roll no");
+        // int rollno= sc.nextInt();
+        // System.out.println("your name is "+name );
+        // System.out.println("your roll no is "+rollno);
 
 
 
@@ -33,25 +34,25 @@ public class Takinginputs {
     //    TO CALCULATE SIMPLE INTREST 
 
       
-//   System.out.println("enter principle ");
-//   int p = sc.nextInt();
+  System.out.println("enter principle ");
+  int p = sc.nextInt();
 
-//   System.out.println("enter rate of intrest ");
-//   float r = sc.nextFloat();
-
-
-//   System.out.println("enter time ");
-//   float t = sc.nextFloat();
+  System.out.println("enter rate of intrest ");
+  float r = sc.nextFloat();
 
 
-//   float si = (p * r * t)/100;
-
-//   System.out.println("principle is "+p);
-//   System.out.println("rate is "+r);
-//   System.out.println("time is "+t);
+  System.out.println("enter time ");
+  float t = sc.nextFloat();
 
 
-//   System.out.println("simple intrest is "+si);
+  float si = (p * r * t)/100;
+
+  System.out.println("principle is "+p);
+  System.out.println("rate is "+r);
+  System.out.println("time is "+t);
+
+
+  System.out.println("simple intrest is "+si);
 
 
 //    TO READ CHARACTER USING SCANNER CLASS 
