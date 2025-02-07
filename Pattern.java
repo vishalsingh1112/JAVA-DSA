@@ -7,16 +7,16 @@ public class Pattern {
 //  ******
 //  ******
         
-   Scanner sc = new Scanner(System.in);
-   int r = sc.nextInt();
-   int c = sc.nextInt();
+//    Scanner sc = new Scanner(System.in);
+//    int r = sc.nextInt();
+//    int c = sc.nextInt();
 
-   for (int i = 1 ; i<=r ; i++){
-    for(int j =1; j<=c; j++){
-        System.out.print("*");
-    }
-    System.out.println();
-   }
+//    for (int i = 1 ; i<=r; i++){
+//     for(int j =1; j<=c; j++){
+//         System.out.print("*");
+//     }
+//     System.out.println();
+//    }
     
 
 //  *******
@@ -38,7 +38,7 @@ public class Pattern {
 //         else
 //             System.out.print(" ");
         
-
+ 
 //     }
 //     System.out.println();
 
@@ -81,7 +81,7 @@ public class Pattern {
 //     }
 //     System.out.println();
 //  }
-
+ 
 //   way 2 
 
 // Scanner sc = new Scanner(System.in );
@@ -103,7 +103,7 @@ public class Pattern {
 
 // Scanner sc = new Scanner(System.in);
 // int r = sc.nextInt();
-// for( int i =1 ; i<=r; i++){
+// for( int i =1 ; i<=r; i++){  // traversing over rows 
 //     // print r-i spaces 
 //     for(int j = 1; j<=r-i; j++){
 //         System.out.print(" ");
@@ -116,7 +116,7 @@ public class Pattern {
 //         }
 //         System.out.println();
     
-// }
+// } 
  
 
 //    1234567
@@ -127,19 +127,19 @@ public class Pattern {
 //    6712345
 //    7123456
 
-// Scanner sc = new Scanner(System.in);
-// int r = sc.nextInt();
+Scanner sc = new Scanner(System.in);
+int r = sc.nextInt();
  
-// for( int i =1; i<=r; i++){
-//     for(int j =i; j<=r; j++){
-//         System.out.print(j);
+for( int i =1; i<=r; i++){
+    for(int j =i; j<=r; j++){
+        System.out.print(j);
 
-//     }
-//     for (int k =1; k<=i-1;k++){
-//         System.out.print(k);
-//     }
-//     System.out.println();
-// }
+    }
+    for (int k =1; k<=i-1;k++){
+        System.out.print(k);
+    }
+    System.out.println();
+}
     
 
 
