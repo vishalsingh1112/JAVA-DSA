@@ -119,6 +119,7 @@ public class Pattern {
 // } 
  
 
+
 //    1234567
 //    2345671
 //    3456712
@@ -126,6 +127,7 @@ public class Pattern {
 //    5671234
 //    6712345
 //    7123456
+//  print
 
 Scanner sc = new Scanner(System.in);
 int r = sc.nextInt();
