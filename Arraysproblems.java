@@ -35,7 +35,7 @@ public class Arraysproblems {
 
 
      int arr [] = {1,2,3,2,4,5,6,7,8,9};
-     int x = 2;
+     int x = 3;
       int ans = -1;
 
       for (int i = 0; i < arr.length; i++) {
