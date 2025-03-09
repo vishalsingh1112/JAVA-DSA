@@ -198,7 +198,7 @@ for (int i = 0; i < n; i++) {
   }
 }
 int secondMax = 
-System.out.println("max value is " + secondMax);
+// System.out.println("max value is " + secondMax);
 
 // int secondMax = ;
 
