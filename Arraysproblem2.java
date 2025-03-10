@@ -167,42 +167,72 @@ public class Arraysproblem2 {
 //  program to find the second  largest number in the array 
 
 
-System.out.println("Enter the size of array ");
-int n = sc.nextInt();
-int arr[] = new int [n];
+// System.out.println("Enter the size of array ");
+// int n = sc.nextInt();
+// int arr[] = new int [n];
 
-System.out.println("Enter the "+ n + " elements ") ;
-for (int i = 0; i < arr.length; i++) {
-  arr[i] = sc.nextInt();
+// System.out.println("Enter the "+ n + " elements ") ;
+// for (int i = 0; i < arr.length; i++) {
+//   arr[i] = sc.nextInt();
 
-}
+// }
 
-int max = Integer.MIN_VALUE;
-for (int i = 0; i < n; i++) {
-  if (arr[i] > max) {
-    max = arr[i];
-  }
-}
-
-
-
-
-
-System.out.println( "the maximum value is "+max);
+// int max = Integer.MIN_VALUE;
+// int secondmax=0;
+// for (int i = 0; i < n; i++) {
+//   if (arr[i] > max) {
+//     secondmax=max;
+//     max = arr[i];
+//   }
+// }
 
 
-for (int i = 0; i < n; i++) {
-  if (arr[i] == max) {
-    arr[i] = Integer.MIN_VALUE;
+
+
+
+// System.out.println( "the maximum value is "+secondmax);
+
+//  second approach 
+
+// for (int i = 0; i < n; i++) {
+//   if (arr[i] == max) {
+//     arr[i] = Integer.MIN_VALUE;
     
-  }
+//   }
+// }
+// int second=Integer.MIN_VALUE;
+// for (int i = 0; i < n; i++) {
+//   if (arr[i] > second) {
+//     // secondmax=max;
+//     second = arr[i];
+//   }
+// }
+// System.out.println( " maximum is " +second);
+
+
+//  find the first repeted number in the array 
+
+System.out.println("Enter the array size");
+int n = sc.nextInt();
+int arr [] = new int[n];
+
+System.out.println("Enter " +n + "elements ");
+for (int i = 0; i < n; i++) {
+  arr[i] =  sc.nextInt();
+int ans = 0;
+
+  
 }
-int secondMax = 
-// System.out.println("max value is " + secondMax);
 
-// int secondMax = ;
-
-// System.out.println("second largest elements is " + secondMax);
+for (int i = 0; i < n; i++) {
+  for (int j = i+1; j < n; j++) {
+  if (arr[i] == arr[j]) {
+  System.out.println(arr[i]);
+    
+  }   
+  }
+  
+}
 
 
 
