@@ -212,6 +212,9 @@ public class Arraysproblem2 {
 
 //  find the first repeted number in the array 
 
+
+
+
 System.out.println("Enter the array size");
 int n = sc.nextInt();
 int arr [] = new int[n];
@@ -219,7 +222,7 @@ int arr [] = new int[n];
 System.out.println("Enter " +n + "elements ");
 for (int i = 0; i < n; i++) {
   arr[i] =  sc.nextInt();
-int ans = 0;
+
 
   
 }
@@ -227,68 +230,67 @@ int ans = 0;
 for (int i = 0; i < n; i++) {
   for (int j = i+1; j < n; j++) {
   if (arr[i] == arr[j]) {
-  System.out.println(arr[i]);
+    System.out.println(arr[i]);
+   
+  
     
   }   
   }
   
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-    private static int findMax(int[] arr) {
-      // TODO Auto-generated method stub
-      throw new UnsupportedOperationException("Unimplemented method 'findMax'");
-    }
     
 }
