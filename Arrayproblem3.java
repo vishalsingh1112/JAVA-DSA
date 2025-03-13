@@ -122,6 +122,7 @@ static int [] rotate(int[] arr ,int k){
 
         int [] arr = {1,2,3,4,5,};
         // int [] ans =reverseArray(arr);
+        // 
 
         
 
