@@ -117,7 +117,7 @@ static int [] rotate(int[] arr ,int k){
 
     public static void main(String[] args) {
         
-        int a = 9;
+        int a = 10;
         int b = 3;
 
         int [] arr = {1,2,3,4,5,};
